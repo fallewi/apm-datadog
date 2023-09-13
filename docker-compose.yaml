@@ -39,7 +39,7 @@ services:
     container_name: dd-agent
     image: "gcr.io/datadoghq/agent:latest"
     environment:
-       - DD_API_KEY=5cce1a8192993215f0f0c28d676040b6
+       - DD_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxx
        - DD_SITE=us5.datadoghq.com  # Default. Change to eu.datadoghq.com, us3.datadoghq.com, us5.datadoghq.com as appropriate for your org
        - DD_APM_ENABLED=true    # Enable APM
     volumes: 
